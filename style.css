@@ -52,6 +52,16 @@ body {
     color: white;
 }
 
+.augustus img {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex: 1; */
+        /* flex:1 2 auto; */
+}
+
+
 .one strong {
     font-size: 40px;
     padding: 5px;
@@ -62,8 +72,10 @@ body {
 .one .content {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     font-size: 20px;
     text-align: center;
+    /* flex: 1 0 auto; */
 }    
 
 .two {
@@ -89,6 +101,7 @@ body {
 
 .benefits ul{
     padding-top: 30px;
+    padding-bottom: 0px;
     list-style-type: none;
     /* border: 2px solid red; */
     flex: 1;
@@ -135,6 +148,8 @@ body {
     height: 200px;
     width: auto;
     border: 2px solid maroon;
+    display: flex;
+    /* padding-bottom: 0px; */
 }
 
 .four {
@@ -142,23 +157,27 @@ body {
     display: flex;
     flex-direction: column;
     padding: 80px;
+    /* padding-right: 0px; */
     justify-content: center;
     align-items: center;
-    flex: 1 2 auto
+    flex: 1;
 }
 
 .four .container {
     background-color: black;
     border: 3px solid white;
+    border-radius: 15px;
     color: white;
-    width: 1000px;
-    padding: 25px 0px 25px;
+    /* width: 1000px; */
+    padding: 25px 40px;
     display: flex;
+    flex: 1;
     text-align: center;
     align-items: center;
-    justify-content: space-evenly;
-    border-radius: 15px;
-    flex: 1 2 0;
+    /* justify-content: space-evenly; */
+    gap: 50px;
+    /* margin:0px -30px ; */
+    /* margin-right:-730px ; */
 }
 
 .footer {
@@ -185,5 +204,14 @@ button:hover {
 }
 
 img {
+    border-radius: 10px;
+}
+
+.benefits a:hover,
+.head a:hover,
+.augustus img:hover,
+.three a:hover {
+    border: 2px solid white;
+    border-color: white;
     border-radius: 10px;
 }
