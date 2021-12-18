@@ -194,7 +194,7 @@ img {
     border-radius: 10px;
 }
 
-.benefits a:hover,
+.benefits li:hover, 
 .head a:hover,
 .augustus img:hover,
 .three img:hover {
