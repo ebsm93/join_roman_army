@@ -146,10 +146,12 @@ body {
     background-color: grey;
     display: flex;
     flex-direction: column;
-    padding: 120px;
+    padding-top: 120px;
+    padding-bottom: 0px;
     justify-content: center;
     align-items: center;
     flex: 1;
+    gap: 90px;
 }
 
 .four .container {
@@ -166,11 +168,18 @@ body {
     font-size: 23px;
 }
 
-.whatif {
-    text-decoration: none ;
+.dream {
+    font-size: xx-small;
+}
+
+.dream a {
+    /* text-decoration: none ; */
     color:midnightblue;
     font-size: xx-small;
 }
+
+
+
 .footer {
     color: white;
     text-align: center;
